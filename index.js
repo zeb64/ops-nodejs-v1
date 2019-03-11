@@ -6,4 +6,4 @@ const requestHandler = (req, res) => {
     res.end('Version V1 ! le hostname est ' + os.hostname() + ' avec pour OS ' + os.platform() + '!');
 };
 const server = http.createServer(requestHandler)
-server.listen(8080);
+server.listen(3000);
